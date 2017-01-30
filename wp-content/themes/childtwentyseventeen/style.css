@@ -1,0 +1,33 @@
+/*
+Theme Name: childtwentyseventeen
+Description: Child theme based on Twenty Seventeen
+Author: Kerri-Dale Smith
+Version: 1.0
+Template: twentyseventeen
+*/
+
+@import url('../twentyseventeen/style.css');
+@import url('https://fonts.googleapis.com/css?family=Bitter|Open+Sans:400,700');
+
+/*typography changes*/
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Bitter', serif;*/
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Bitter', serif;
+}
+
+html, button, input, select, textarea {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.site-header {
+	background: url(http://localhost:8888/devtools2smith/wp-content/themes/childtwentyseventeen/assets/images/sandwich.jpg width="2000" height="1200" alt="devtools2smith")
+}
+
+.entry-title a {
+    color: #ba9668;
+}
+
