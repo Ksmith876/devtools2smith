@@ -1,7 +1,7 @@
 <?php
 function my_theme_enqueue_styles() {
 
-    $parent_style = 'twentythirteen'; //This is 'twentythirteen-style' for Twenty Thirteen theme.
+    $parent_style = 'twentythirteen-style'; //This is 'twentythirteen-style' for Twenty Thirteen theme.
 
     wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
     wp_enqueue_style( 'child-style',
