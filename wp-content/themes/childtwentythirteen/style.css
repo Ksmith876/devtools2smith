@@ -1,0 +1,146 @@
+/*
+Theme Name: childtwentythirteen
+Description: Child theme based on Twenty Thirteen
+Author: Kerri-Dale Smith
+Version: 1.0
+Template: twentythirteen
+*/
+
+@import url('../twentythirteen/style.css');
+@import url('https://fonts.googleapis.com/css?family=Bitter|Open+Sans:400,700');
+
+
+
+
+ /*Global
+ * ----------------------------------------------------------------------------
+ */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Bitter', serif;
+}
+
+html, button, input, select, textarea {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header#masthead.site-header {
+	background-image: url(http://localhost:8888/devtools2smith/wp-content/themes/childtwentythirteen/images/headers/wireframe.png);
+}
+
+ /*Basic Structure
+ * ----------------------------------------------------------------------------
+ */
+
+.site {
+	background-color: #555555;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.site-info {
+	display:none;
+}
+
+.archive-header {
+	display:none;
+}
+
+.comment-respond {
+    display:none;
+}
+
+.post-navigation {
+    background-color: #555555;   
+}
+
+.navigation a {
+    color: #f7f251;
+}
+
+.navigation a:hover {
+    color: #ff91d5;
+}
+
+/**
+ * Site Header
+ * ----------------------------------------------------------------------------
+ */
+
+
+.site-title {
+	display: none;
+}
+
+.site-description {
+	display:none;
+}
+
+/**
+ * Nav Bar
+ * ----------------------------------------------------------------------------
+ */
+.navbar {
+    background-color: #ff91d5;
+}
+
+.nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
+    color: #f7f251;
+}
+
+/**
+ * Site Footer
+ * ----------------------------------------------------------------------------
+ */
+
+.site-footer .sidebar-container {
+    background-color: #ff91d5;
+}
+
+.site-footer .widget a {
+    color: #f7f251;
+}
+
+.site-footer .widget-title, .site-footer .widget-title a, .site-footer .wp-caption-text {
+    color: #000;
+}
+
+/**
+ * Meta Data
+ * ----------------------------------------------------------------------------
+ */
+
+.entry-meta a {
+    color: #f7f251;
+}
+
+.entry-meta a:hover {
+    color: #ff91d5;
+}
+
+/**
+ * Typography
+ * ----------------------------------------------------------------------------
+ */
+
+h1.entry-title {
+	color: #fff;
+}
+
+.entry-title a {
+    color: #fff;
+}
+
+.entry-title a:hover {
+    color: #f7f251;
+    text-decoration: none;
+}
+
+.entry-content a {
+    color: #f7f251;
+}
+
+.entry-content a:hover {
+    color: #ff91d5;
+    text-decoration: none;
+}
